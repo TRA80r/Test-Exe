@@ -3,10 +3,10 @@ name: Build exe
 on:
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-  pull_request:
+#  push:
+#    branches:
+#      - main
+#  pull_request:
 
 jobs:
   build-and-test:
